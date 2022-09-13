@@ -101,6 +101,9 @@
     align-items: center;
     justify-content: space-between;
 }
+span{
+    display: inline;
+}
 
 .skills {
     font-size: 0.75rem;
