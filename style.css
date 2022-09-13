@@ -5,6 +5,9 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.body{
+    background-color: rgb(168,192,10);
+}
 
 .main-content {
     min-height: 1200px;
@@ -18,7 +21,7 @@
     grid-column: span 1;
     font-size: large;
     font-weight: 500;
-    background-color: rgb(0, 102, 133);
+    background-color: rgba(35, 191, 239, 0.596);
     color: rgb(255, 255, 255);
 }
 
@@ -68,6 +71,7 @@
 }
 
 .designation {
+    color: azure;
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
@@ -75,6 +79,7 @@
 }
 
 .description {
+    color: aliceblue;
     font-size: .75rem;
     text-align: center;
     text-transform: uppercase;
@@ -124,7 +129,7 @@
     grid-column: span 1 / span 2;
     font-size: large;
     font-weight: 500;
-    background-color: azure;
+    background-color: antiquewhite;
     color: rgb(0, 102, 133);
 }
 
