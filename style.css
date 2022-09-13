@@ -35,13 +35,38 @@ body{
 .left-content{
     padding: 1rem;
 }
-.profile-image{
-   display: block;
-   margin: auto;
-   border: 5px;
-   border-radius: 30%;
-   width: 60%;
+.profile-details {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+.profile-image {
+
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    box-shadow: 0 0 20px 1px white;
+    overflow: hidden;
+    cursor: grab;
+}
+
+.profile-image img {
+    height: 100px;
+    width: auto;
+    object-fit: fill;
+}
+
+.profile-image img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in;
+}
+
 .name{
     color: white;
     font-size: 1.2rem;
